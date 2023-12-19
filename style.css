@@ -1,0 +1,186 @@
+*{margin: 0px; font-weight: bold; font-family: verdana; }
+
+
+
+
+img{
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px greenyellow;
+}
+
+h1{font-size: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#foto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+#social {
+    width: 100%;
+
+position: relative;
+right: 8%;
+top: 120px;
+
+
+
+}
+
+button{
+    width: 600px;
+    height: 55px;
+    background-color: greenyellow;
+margin: 5px;
+    border: 0px;
+
+  border-radius: 10px;
+
+font-size: 15px;
+   
+}
+
+button:hover{
+ 
+
+height: 55px;
+box-shadow: 0px 0px 10px greenyellow;
+  
+}
+
+ a {
+    color:black;
+
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 42%;
+
+
+    
+    
+}
+#rodape{ 
+    width: 100%;
+
+
+}
+
+h2{
+    margin-left: 43%;
+    margin-top: 17%;
+    font-size: 11px;
+}
+
+@media  (max-width: 430px) {
+
+    #foto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 15px;
+    
+    }
+h1{
+    margin-left: 10%; 
+}
+
+
+#social {
+    width: 250px;
+
+position: relative;
+right: 43%;
+top: 120px;
+
+
+
+}
+
+
+h2{
+    margin-left: 20%;
+    margin-top: 65%;
+    font-size: 11px;
+}
+
+
+}
+    
+@media  (max-width: 1300px){
+
+    #foto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 100px;
+    
+    }
+
+
+    h1{
+        margin-left: 15%; 
+    }
+
+
+h2{
+    margin-left: 47%;
+}
+
+}
+
+@media  (max-width: 1000px){
+
+    #foto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 150px;
+    
+    }
+
+
+    h1{
+        margin-left: 27%; 
+    }
+
+
+h2{
+    margin-left: 50%;
+}
+
+}
+
+@media  (max-width: 428px){
+
+    #foto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 20px;
+    
+    }
+
+
+    h1{
+        margin-left: 10%; 
+    }
+
+
+h2{
+    margin-left: 20%;
+}
+
+}
