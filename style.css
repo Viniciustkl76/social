@@ -242,36 +242,49 @@ button{
 
     #foto{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        margin-left: 10px;
+   
+      
+      
+      
     
     }
 
+img{
+    width: 150px;
+    position: relative;
+    right: 30px;
+}
 
     h1{
-        margin-left: 10%; 
+       
         width: 100%;
+        position: relative;
+        right: 110px;
+      
     }
 
 
     h2{
-        margin-left: 40%;
-        margin-top: 39%;
-        font-size: 11px;
+     width: 100%;
+        font-size: 9px;
+        text-align: center;
+     position: relative;
+     right: 150px;
     }
 
+
+
 #social {
-    width:100%;
+    width:260px;
 
 position: relative;
 
 top: 70px;
-right: 100px;
+
 
 
 
 }
+
 
 }
