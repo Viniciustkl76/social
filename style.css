@@ -1,42 +1,40 @@
-*{margin: 0px; font-weight: bold; font-family: verdana; }
+*{ font-weight: bold; font-family:sans-serif; }
 
 
-body{width: 100%;}
+
 
 img{
-    margin-top: 20px;
-    height: 200px;
+    width: 170px;
     border-radius: 50%;
     box-shadow: 0px 0px 15px greenyellow;
 }
 
 h1{font-size: 20px;
-    margin-top: 25px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-top: 30px;
+
 
 }
 
 #foto{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
 
 }
 
-#social {
-    width: 100%;
-
-position: relative;
-right: 8%;
-top: 120px;
-
-
-
+#social{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button{
+    
     width: 600px;
     height: 55px;
     background-color: greenyellow;
@@ -45,8 +43,9 @@ margin: 5px;
 
   border-radius: 10px;
 
-font-size: 15px;
+font-size: 17px;
 box-shadow: 2px 2px 3px black;
+color: #000000;
    
 }
 
@@ -61,232 +60,69 @@ border: solid 1px black;
 
  a {
     color:black;
-
     text-decoration: none;
-    margin-top: 15px;
-    margin-left: 42%;
+    display: flex;
 
 
     
     
 }
 #rodape{ 
-    width: 100%;
+width: 100%;
 
 
 }
 
 h2{
-    margin-left: 43%;
-    margin-top: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 11px;
+    margin-top: 240px;
 }
 
 @media  (max-width: 430px) {
 
-    #foto{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        position: relative;
-        right: 120px;
-    
-    }
-
-h1{
-  position: relative;
-  right: 40px;
-  top: 10px;
-}
-
-
-#social {
-    width: 250px;
-
-position: relative;
-right: 13%;
-top: 120px;
-
-
-
-}
-
-
-h2{
-    margin-left: 20%;
-    margin-top: 65%;
-    font-size: 11px;
-}
 
 button{
+
     width: 360px;
+
 }
-
-h2{
-    position: relative;
-    right: 100px;
-    bottom: 20px;
-    width: 100%;
-}
-}
-    
-@media  (max-width: 1300px){
-
-    #foto{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        margin-left: 100px;
-    
-    }
-
-
-    h1{
-        margin-left: 15%; 
-    }
 
 
 h2{
-    margin-left: 47%;
+  margin-top: 200px;
 }
 
 }
-
-@media  (max-width: 1000px){
-
-    #foto{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        margin-left: 150px;
     
-    }
-
-
-    h1{
-        margin-left: 27%; 
-    }
+@media  (max-width: 360px) {
 
 
 h2{
-    margin-left: 50%;
-}
-
-}
-
-@media  (max-width: 428px){
-
-    #foto{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        margin-left: 20px;
-    
-    }
-
-
-    h1{
-        margin-left: 10%; 
-    }
-
-
-h2{
-    margin-left: 20%;
-}
-
-}
-
-@media  (max-width: 390px){
-
-    #foto{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-     position: relative;
-     left: 5px;
-    
-    }
-
-
-    h1{
-        margin-left: 100px; 
-    }
-
-
-    h2{
-        width: 100%;
-        margin-left: 170px;
-    }
-
-
-#social {
-    width: 100%;
-
-position: relative;
-right: 20%;
-top: 100px;
-
-
-
+  margin-top: 120px;
 }
 
 button{
-    width: 260px;
+    width: 330px;
 }
 
 }
 
-@media  (max-width: 360px){
+@media  (max-width: 280px) {
 
-    #foto{
-        width: 100%;
+
    
-      
-      
-      
     
-    }
 
-img{
-    width: 150px;
-    position: relative;
-    right: 30px;
-}
-
-    h1{
-       
-        width: 100%;
-        position: relative;
-        right: 110px;
-      
-    }
-
-
-    h2{
-     width: 100%;
-        font-size: 9px;
-        text-align: center;
-     position: relative;
-     right: 150px;
-    }
-
-
-
-#social {
-    width:260px;
-
-position: relative;
-
-top: 70px;
-
-
-
-
+button{
+    width: 250px;
 }
 
 
+h2{
+    font-size: 10px;
 }
+
+    }
