@@ -46,6 +46,7 @@ margin: 5px;
   border-radius: 10px;
 
 font-size: 15px;
+box-shadow: 2px 2px 3px black;
    
 }
 
@@ -53,7 +54,8 @@ button:hover{
  
 
 height: 55px;
-box-shadow: 0px 0px 10px greenyellow;
+
+border: solid 1px black;
   
 }
 
