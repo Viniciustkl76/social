@@ -1,7 +1,7 @@
 *{margin: 0px; font-weight: bold; font-family: verdana; }
 
 
-
+body{width: 100%;}
 
 img{
     margin-top: 20px;
@@ -251,7 +251,8 @@ button{
 
 
     h1{
-        margin-left: 25%; 
+        margin-left: 10%; 
+        width: 100%;
     }
 
 
@@ -262,11 +263,12 @@ button{
     }
 
 #social {
-    width: 120px;
+    width:100%;
 
 position: relative;
-right: 0%;
+
 top: 70px;
+right: 100px;
 
 
 
