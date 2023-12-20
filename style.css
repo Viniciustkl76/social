@@ -87,11 +87,15 @@ h2{
         display: flex;
         justify-content: center;
         margin-top: 30px;
-        margin-left: 15px;
+        position: relative;
+        right: 120px;
     
     }
+
 h1{
-    margin-left: 10%; 
+  position: relative;
+  right: 40px;
+  top: 10px;
 }
 
 
@@ -99,7 +103,7 @@ h1{
     width: 250px;
 
 position: relative;
-right: 43%;
+right: 13%;
 top: 120px;
 
 
@@ -113,7 +117,16 @@ h2{
     font-size: 11px;
 }
 
+button{
+    width: 360px;
+}
 
+h2{
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+    width: 100%;
+}
 }
     
 @media  (max-width: 1300px){
@@ -191,32 +204,36 @@ h2{
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 30px;
-        margin-left: 20px;
+     position: relative;
+     left: 5px;
     
     }
 
 
     h1{
-        margin-left: 10%; 
+        margin-left: 100px; 
     }
 
 
     h2{
-        margin-left: 20%;
-        margin-top: 49%;
-        font-size: 11px;
+        width: 100%;
+        margin-left: 170px;
     }
 
+
 #social {
-    width: 200px;
+    width: 100%;
 
 position: relative;
-right: 43%;
+right: 20%;
 top: 100px;
 
 
 
+}
+
+button{
+    width: 260px;
 }
 
 }
@@ -228,19 +245,19 @@ top: 100px;
         display: flex;
         justify-content: center;
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
     
     }
 
 
     h1{
-        margin-left: 10%; 
+        margin-left: 25%; 
     }
 
 
     h2{
-        margin-left: 20%;
-        margin-top: 29%;
+        margin-left: 40%;
+        margin-top: 39%;
         font-size: 11px;
     }
 
@@ -248,7 +265,7 @@ top: 100px;
     width: 120px;
 
 position: relative;
-right: 43%;
+right: 0%;
 top: 70px;
 
 
