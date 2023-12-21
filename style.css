@@ -1,7 +1,7 @@
 *{ font-weight: bold; font-family:sans-serif; }
 
 
-img{
+#rede img{
     width: 40px; 
     padding: 10px;
    
@@ -11,6 +11,7 @@ img{
     width: 170px;
     border-radius: 50%;
     box-shadow: 0px 0px 15px greenyellow;
+    
 }
 
 h1{font-size: 20px;
@@ -55,17 +56,16 @@ margin: 5px;
   border-radius: 10px;
 
 font-size: 17px;
-box-shadow: 2px 2px 3px black;
+box-shadow: 1px 2px 2px black;
 color: #000000;
-   
+border: solid 0.1px black;
 }
 
 button:hover{
  
+border: 0px;
 
-height: 55px;
 
-border: solid 1px black;
   
 }
 
